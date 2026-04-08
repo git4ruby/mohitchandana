@@ -1,0 +1,33 @@
+export const skills = [
+  { name: 'Ruby on Rails', category: 'backend' },
+  { name: 'Vue.js 3', category: 'frontend' },
+  { name: 'PostgreSQL', category: 'backend' },
+  { name: 'pgvector', category: 'ai' },
+  { name: 'Redis', category: 'backend' },
+  { name: 'Sidekiq', category: 'backend' },
+  { name: 'GraphQL', category: 'backend' },
+  { name: 'Docker', category: 'devops' },
+  { name: 'AWS', category: 'devops' },
+  { name: 'Vite', category: 'frontend' },
+  { name: 'Tailwind CSS', category: 'frontend' },
+  { name: 'RSpec', category: 'testing' },
+  { name: 'Cypress', category: 'testing' },
+  { name: 'Ollama', category: 'ai' },
+  { name: 'RAG', category: 'ai' },
+  { name: 'OpenAI', category: 'ai' },
+  { name: 'Gemini', category: 'ai' },
+  { name: 'ActionCable', category: 'backend' },
+  { name: 'Twilio', category: 'backend' },
+  { name: 'GitHub Actions', category: 'devops' },
+  { name: 'Go', category: 'backend' },
+  { name: 'HIPAA', category: 'domain' },
+]
+
+export const categoryColors = {
+  backend: 'border-indigo-500/40 text-indigo-300 bg-indigo-500/10',
+  frontend: 'border-emerald-500/40 text-emerald-300 bg-emerald-500/10',
+  ai: 'border-purple-500/40 text-purple-300 bg-purple-500/10',
+  devops: 'border-sky-500/40 text-sky-300 bg-sky-500/10',
+  testing: 'border-amber-500/40 text-amber-300 bg-amber-500/10',
+  domain: 'border-rose-500/40 text-rose-300 bg-rose-500/10',
+}

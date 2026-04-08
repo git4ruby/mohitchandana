@@ -7,7 +7,7 @@
       <ProjectsSection />
       <ExperienceSection />
       <SkillsSection />
-      <BlogSection />
+      <!-- <BlogSection /> -->
       <ContactSection />
     </main>
     <footer class="border-t border-navy-700 py-8 text-center text-sm text-gray-500">
